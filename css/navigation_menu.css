@@ -1,0 +1,28 @@
+.navigation-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00BFFF;
+}
+
+.navigation-menu li {
+    float: left;
+    font-size: 25px;
+}
+
+.navigation-menu a {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+	background-color: #00BFFF;
+    color: white;
+}
+
+.navigation-menu .active {
+    color: black;
+    background-color: #DAA520;
+    font-weight: bold;
+}

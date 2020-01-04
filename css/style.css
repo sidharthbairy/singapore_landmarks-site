@@ -1,0 +1,39 @@
+h1 {
+    font-size: 3vw;
+	color: white;
+    background-color: #008000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#intro-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.animate-1 {
+    animation-name: fade-in;
+    animation-duration: 6s;    
+}
+
+@keyframes fade-in {
+    from {  opacity: 0; 
+            transform: rotate(-80deg);
+        }
+
+    to {    opacity: 1;
+            transform: rotate(0deg);
+        }    
+}
+
+p {
+	color: #FFFFFF;
+	text-align: left;
+}
+
+h2, h6 {
+    color: #FFA500;
+}
